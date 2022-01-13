@@ -1,4 +1,4 @@
-import requests as req, re
+import requests as req, re, os
 
 class Main:
 	
@@ -33,6 +33,7 @@ class Main:
 			)
 		return f"[✓] Foto disimpan di folder download\n * Nama file: profile_{self.username}.jpg "
 
+os.system('clear')
 if __name__=="__main__":
 	print(
 		" * Download profile picture Instagram HD\n"

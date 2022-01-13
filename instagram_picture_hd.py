@@ -18,7 +18,7 @@ class Main:
 					r
 				)
 			)[0]
-		except KeyError:
+		except:
 			exit(
 				"[!] Username tidak ditemukan."
 			)

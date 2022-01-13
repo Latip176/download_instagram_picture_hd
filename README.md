@@ -5,6 +5,7 @@ Tools for download profile picture Instagram Hd
 pkg install python
 pkg install git
 git clone https://github.com/Latip176/download_instagram_picture_hd
+pip install requests
 ```
 Ketik ```termux-setup-storage``` lalu klik ijinkan.
 # Running
